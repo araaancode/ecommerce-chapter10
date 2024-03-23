@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  width: 500px;
+  margin: 35px auto;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.links {
+  display: flex;
+}
+
+.navlink {
+  list-style: none;
+  margin: 0 0.75rem;
+  text-transform: uppercase;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlink a:hover {
+  color: #03a35b;
+}

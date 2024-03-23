@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem 0;
+  background: transparent;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #03a35b;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #03a35b;
+  color: white;
+}
+
+.price{
+  text-align: center;
+}
